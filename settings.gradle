@@ -1,0 +1,3 @@
+include ':OmarLib'
+include ':app'
+rootProject.name = "OmarSDK"
