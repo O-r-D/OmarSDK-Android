@@ -1,10 +1,8 @@
 package com.ord.omarsdk
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.ord.omarlib.OmarLib
-import com.ord.omarlib.WebViewActivity
 
 class MainActivity : AppCompatActivity() {
 

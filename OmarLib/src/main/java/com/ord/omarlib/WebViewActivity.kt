@@ -2,19 +2,17 @@ package com.ord.omarlib
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.ord.omarlib.databinding.ActivityWebviewBinding
+import android.webkit.WebView
 
 class WebViewActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityWebviewBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityWebviewBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContentView(R.layout.activity_webview)
 
-        val surveysWebview = binding.wvSurveys
+        val surveysWebView = findViewById<WebView>(R.id.wv_surveys)
 
-        surveysWebview.loadUrl("https://www.google.com")
+        surveysWebView.loadUrl("https://www.google.com")
     }
 }
