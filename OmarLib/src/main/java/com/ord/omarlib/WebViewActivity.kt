@@ -1,11 +1,13 @@
 package com.ord.omarlib
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.webkit.WebView
+import androidx.appcompat.app.AppCompatActivity
 
+/** The WebView activity that will display the surveys.
+ *  This is a normal activity so it can be dismissed easily invoking back on the phone.
+ **/
 class WebViewActivity : AppCompatActivity() {
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
